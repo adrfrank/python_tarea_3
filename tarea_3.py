@@ -8,9 +8,6 @@ from datetime import datetime
 
 class HelloWorld:
 
-    # This is a callback function. The data arguments are ignored
-    # in this example. More on callbacks below.
-
     def printHour(self):
     	strh = str(datetime.today())
     	print strh
@@ -40,8 +37,6 @@ class HelloWorld:
     def main(self):
         gtk.main()
 
-# If the program is run directly or passed as an argument to the python
-# interpreter then create a HelloWorld instance and show it
 if __name__ == "__main__":
     hello = HelloWorld()
     hello.main()
